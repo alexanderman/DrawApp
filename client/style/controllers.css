@@ -1,0 +1,9 @@
+.list-controller {
+    padding: 0 0 10px 10px;
+}
+
+.editor-controller {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}

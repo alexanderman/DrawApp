@@ -1,0 +1,13 @@
+<div class="editor-controller">
+
+    <div class="canvas-actions">
+        <button ng-click="edit()">Edit</button>
+        <a ng-click="download($event)">Download</a>
+    </div>
+
+    <div class="canvas-container">
+        <canvas-renderer lines-model="linesModel" on-ready="cdrReady(cdr)"></canvas-renderer>
+    </div>
+
+
+</div>

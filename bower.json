@@ -1,0 +1,22 @@
+{
+  "name": "DrawApp",
+  "authors": [
+    "alexanderman <alexander.shnirman@gmail.com>"
+  ],
+  "description": "allows user to draw, persists the drawing and views the drawings",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.x",
+    "angular-route": "1.x",
+    "angular-ui-router": "0.4.x"
+  }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DrawApp</title>
+    <link rel="stylesheet" href="/client/style/base.css">
+    <link rel="stylesheet" href="/client/style/components.css">
+    <link rel="stylesheet" href="/client/style/controllers.css">
+    <base href="/">
+</head>
+<body ng-app="App">
+
+
+    <div class="navigation">
+        <a ui-sref="main.list" ui-sref-active="active">Home</a>
+        <a ui-sref="main.editor" ui-sref-active="active">Draw</a>
+        <a ui-sref="main.view" ui-sref-active="active">View</a>
+    </div>
+
+
+    <ui-view></ui-view>
+
+
+
+<!-- vendor.js -->
+<script src="/bower_components/angular/angular.js"></script>
+<script src="/bower_components/angular-route/angular-route.js"></script>
+<script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+<!-- app -->
+<script src="/client/app.js"></script>
+<script src="/client/app.constants.js"></script>
+<script src="/client/app.config.js"></script>
+<script src="/client/app.routes.js"></script>
+
+<script src="/client/pages/base/base-controller.js"></script>
+<script src="/client/pages/list/list-controller.js"></script>
+<script src="/client/pages/editor/editor-controller.js"></script>
+<script src="/client/pages/view/view-controller.js"></script>
+
+<script src="/client/services/resource-list-provider.js"></script>
+<script src="/client/services/canvas-drawer.js"></script>
+<script src="/client/services/user-service-provider.js"></script>
+<script src="/client/services/canvas-model.js"></script>
+<script src="/client/services/canvas-service-provider.js"></script>
+
+
+<script src="/client/components/list-item/list-item.js"></script>
+<script src="/client/components/canvas-renderer/canvas-renderer.js"></script>
+<script src="/client/components/color-selector/color-selector.js"></script>
+
+</body>
+</html>
