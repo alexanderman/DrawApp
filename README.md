@@ -1,5 +1,11 @@
 # DrawApp
+run the following commands
 
-npm install 
-bower install
+<br />
+npm install <br/>
+bower install <br/>
+
+<br/>
+cd server/ <br/>
+node app.js
 
